@@ -1,8 +1,6 @@
 module github.com/v2fly/v2ray-core/v5
 
-go 1.24.0
-
-toolchain go1.24.2
+go 1.26.0
 
 require (
 	github.com/adrg/xdg v0.5.3
@@ -37,12 +35,12 @@ require (
 	github.com/xiaokangwang/VLite v0.0.0-20220418190619-cff95160a432
 	go.starlark.net v0.0.0-20230612165344-9532f5667272
 	go4.org/netipx v0.0.0-20230303233057-f1b76eb4bb35
-	golang.org/x/crypto v0.45.0
-	golang.org/x/net v0.47.0
-	golang.org/x/sync v0.18.0
-	golang.org/x/sys v0.38.0
-	google.golang.org/grpc v1.77.0
-	google.golang.org/protobuf v1.36.10
+	golang.org/x/crypto v0.57.0
+	golang.org/x/net v0.60.0
+	golang.org/x/sync v0.23.0
+	golang.org/x/sys v0.48.0
+	google.golang.org/grpc v1.85.0
+	google.golang.org/protobuf v1.36.12
 	gopkg.in/yaml.v3 v3.0.1
 	gvisor.dev/gvisor v0.0.0-20231020174304-b8a429915ff1
 	h12.io/socks v1.0.3
@@ -87,10 +85,10 @@ require (
 	github.com/xtaci/smux v1.5.24 // indirect
 	go.uber.org/mock v0.5.2 // indirect
 	golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842 // indirect
-	golang.org/x/mod v0.29.0 // indirect
-	golang.org/x/text v0.31.0 // indirect
+	golang.org/x/mod v0.41.0 // indirect
+	golang.org/x/text v0.42.0 // indirect
 	golang.org/x/time v0.5.0 // indirect
-	golang.org/x/tools v0.38.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20251022142026-3a174f9686a8 // indirect
+	golang.org/x/tools v0.49.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260817212433-ac3dfec99bb1 // indirect
 	nhooyr.io/websocket v1.8.6 // indirect
 )
